@@ -3,6 +3,7 @@ import Question from "../Question";
 import Option from "../Option";
 import './styles.css'
 import ProgressBar from "../ProgressBar";
+import Result from "../Result";
 
 
 class Quiz extends React.Component {
@@ -68,6 +69,13 @@ class Quiz extends React.Component {
         })
 }
     render() {
+        if(this.state.questionIndex===this.questions.length){
+            return(
+                <div>
+                    <Result score={this.state.score} numberOfQuestions={this.questions.length}/>
+                </div>
+            )
+        }
         return (
             <div className="header">
                 <div className="score">Score: {this.state.score}</div>
