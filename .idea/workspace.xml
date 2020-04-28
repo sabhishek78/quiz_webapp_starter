@@ -4,8 +4,6 @@
     <list default="true" id="c6fb754a-6710-404e-83ad-84ebd1d35bf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quiz/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +62,8 @@
       <workItem from="1587355275761" duration="5959000" />
       <workItem from="1587454491680" duration="914000" />
       <workItem from="1587904908160" duration="1321000" />
+      <workItem from="1587906259013" duration="137000" />
+      <workItem from="1588051028356" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="progress bar finished">
       <created>1587114137665</created>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587367831420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="all questions enabled">
+      <created>1587906274367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587906274367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,17 +103,18 @@
     <MESSAGE value="progress bar finished" />
     <MESSAGE value="score displayed at the end of the quiz" />
     <MESSAGE value="Result component with table implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Result component with table implemented" />
+    <MESSAGE value="all questions enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="all questions enabled" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587010772796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587010772796" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1587367830742">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1587906273757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587367830742" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587906273757" />
     <state width="1515" height="36" key="GridCell.Tab.0.bottom" timestamp="1587906237811">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -123,10 +131,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="36" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587906237811" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587367833544">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587906276280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587367833544" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587906276280" />
     <state x="577" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587010492325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
