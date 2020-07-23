@@ -12,7 +12,6 @@ class Quiz extends React.Component {
         selectedOption: null,
         questionIndex:0,
         disableClick:false,
-
     };
     answerList=[];
     questions = [

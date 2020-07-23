@@ -15,22 +15,13 @@ export default function Result(props) {
                         <th>Correct Answer</th>
                         <th>Your Answer</th>
                     </tr>
-
-
-                {
+                    {
                     props.questions.map((item, index) => (
-
-
-
-
-                            <tr>
-                                <td>{item.text}</td>
-                                <td>{item.options[item.correct_choice]}</td>
-                                <td>{item.options[props.answerList[index]]}</td>
-                            </tr>
-
-
-
+                        <tr>
+                            <td>{item.text}</td>
+                            <td>{item.options[item.correct_choice]}</td>
+                            <td>{item.options[props.answerList[index]]}</td>
+                        </tr>
                     ))
                 }
                 </table>
